@@ -8,6 +8,7 @@ This project is inspired by the amazinng webrings @ The University of Waterloo (
 
 ### 🙂 Joining the webring
 To join the webring - please create a pull request and edit the `addwebsite.md` file, and follow the instructions. I've done mine below as a demo.\
+
 Name: Farooq Qureshi\
 Year: 2030\
 Program: Electrical Engineering and Computing Technology\
