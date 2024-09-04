@@ -2,13 +2,17 @@
 
 This project is inspired by the amazinng webrings @ The University of Waterloo ([se-webring.xyz](https://se-webring.xyz/), [ece.engineering](https://ece.engineering/)) and McGill University ([mcgilcswebring.org](https://mcgillcswebring.org/))
 
-### How to get your website added ✅
-- All types of websites are exceptd, but social networking sites (eg: linkedin, facebook, etc.) aren't included in this.
-- To get your website added, simply create a pull request and edit the script.js file.
-- My website is already there!
-  '''
-  { url: 'farooqqureshi.com', year: '2030', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' }
-  ```
-- Please follow the format above, and please also keep the pic.png part as well (this was my fault, working on a fix!)
-- In the comment for your pull request - please include some sort of other link to yourself (LinkedIn is best) just so I can tell it's you!
-- I'll approve the PR and your website will be added ✅
+### ✅ Some general information
+- All types of websites are great to have (personal websites / portfolios). Social networking pages (eg: LinkedIn, X) are not on the webring.
+- To be part of the webring - you must be a student at the University of Ottawa (or been an alumni), and you must be (or must have been) studying a program under the School of Electrical Engineering and Computer Science (Software Engineeirng, Electrical Engineering, Computer Engineering, Computer Science).
+
+### 🙂 Joining the webring
+To join the webring - please create a pull request with the following format. I've used me as an example
+
+Name: Farooq Qureshi
+URL: farooqqureshi.com
+Year of graduation: 2030
+Program: Electrical Engineering and Computing Technology
+Social Link: https://www.linkedin.com/in/farooqq/
+
+Once this is done - I'll approve the request and add you to the webring! It's highly encoruaged that you put a link to the webring somewhere on your website to get the ring more exposure. 
