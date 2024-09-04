@@ -12,7 +12,7 @@ To join the webring - please create a pull request and edit the `addwebsite.md` 
 Name: Farooq Qureshi\
 Year: 2030\
 Program: Electrical Engineering and Computing Technology\
-URL: https://farooqqureshi.com/\ 
+URL: https://farooqqureshi.com/ \
 Other link: https://www.linkedin.com/in/farooqq\
 
 
