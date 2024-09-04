@@ -11,13 +11,13 @@ The domain at the momment is attatched to my website (farooqqureshi.com/eecs-web
 
 ### 🙂 Joining the webring
 To join the webring - please create a pull request and edit the `addwebsite.md` file located under `templates` - please title the PR "add site for [name]", and follow the instructions. I've done mine below as a demo.
-
+___________________________________________________________
 Name: Farooq Qureshi\
 Year: 2030\
 Program: Electrical Engineering and Computing Technology\
 URL: https://farooqqureshi.com/ \
 Other link: https://www.linkedin.com/in/farooqq\
-
+___________________________________________________________
 
 Once this is done - I'll approve the request and add you to the webring! ~It's highly encoruaged that you put a link to the webring somewhere on your website to get the ring more exposure.~ <- Pending until I get a domain!
 
