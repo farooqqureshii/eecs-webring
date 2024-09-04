@@ -18,3 +18,7 @@ Other link: https://www.linkedin.com/in/farooqq\
 
 Once this is done - I'll approve the request and add you to the webring! It's highly encoruaged that you put a link to the webring somewhere on your website to get the ring more exposure. 
 
+### TO-DO
+- Make mobile responsive
+  
+
