@@ -6,11 +6,11 @@ This project is inspired by the amazing webrings @ The University of Waterloo ([
 The domain at the momment is attatched to my website (farooqqureshi.com/eecs-webring). I don't plan to keep it like this, and intend to get a nice domain once enough users add themselves in. 
 
 ### ✅ Some general information
-- All types of websites are great to have (personal websites / portfolios). Social networking pages (eg: LinkedIn, X) are not on the webring.
+- Personal websites are great (or portfolios). Social networking pages (eg: LinkedIn, X) are not to be on the webring.
 - To be part of the webring - you must be a student at the University of Ottawa (or bee an alumni), and you must be (or must have been) studying a program under the School of Electrical Engineering and Computer Science (Software Engineeirng, Electrical Engineering, Computer Engineering, Computer Science).
 
 ### 🙂 Joining the webring
-To join the webring - please create a pull request and edit the `addwebsite.md` file, and follow the instructions. I've done mine below as a demo.
+To join the webring - please create a pull request and edit the `addwebsite.md` file - please title it "add site <your first name.", and follow the instructions. I've done mine below as a demo.
 
 Name: Farooq Qureshi\
 Year: 2030\
