@@ -7,7 +7,7 @@ This project is inspired by the amazinng webrings @ The University of Waterloo (
 - To be part of the webring - you must be a student at the University of Ottawa (or been an alumni), and you must be (or must have been) studying a program under the School of Electrical Engineering and Computer Science (Software Engineeirng, Electrical Engineering, Computer Engineering, Computer Science).
 
 ### 🙂 Joining the webring
-To join the webring - please create a pull request with the following format. I've used me as an example
+To join the webring - please create a pull request with the following format. I've used me as an example.
 
 Name: Farooq Qureshi
 URL: farooqqureshi.com
