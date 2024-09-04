@@ -1,22 +1,20 @@
 const websites = [
     { url: 'https://farooqqureshi.com', year: '2030', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },
+    { url: 'https://example.com', year: '2020', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },
 ];
-
 
 function displayWebsites() {
     const websiteGrid = document.getElementById('website-grid');
-    websiteGrid.innerHTML = ''; 
+    websiteGrid.innerHTML = '';
 
     websites.forEach(website => {
         const websiteItem = document.createElement('div');
         websiteItem.className = 'website-item';
 
         const websiteLink = document.createElement('a');
-  
-        const fullUrl = new URL(website.url, 'https://'); 
-        websiteLink.href = fullUrl.href;
+        websiteLink.href = website.url;
         websiteLink.target = '_blank';
-        websiteLink.textContent = fullUrl.hostname; 
+        websiteLink.textContent = new URL(website.url).hostname;
 
         const yearText = document.createElement('p');
         yearText.className = 'year';
@@ -28,7 +26,6 @@ function displayWebsites() {
     });
 }
 
-
 function updateRandomWebsite() {
     const randomIndex = Math.floor(Math.random() * websites.length);
     const randomWebsite = websites[randomIndex];
@@ -38,20 +35,17 @@ function updateRandomWebsite() {
     const websiteImage = document.getElementById('random-image');
 
     websiteLink.href = randomWebsite.url;
-    websiteLink.textContent = randomWebsite.url.replace(/^https?:\/\//, '');
+    websiteLink.textContent = new URL(randomWebsite.url).hostname;
     websiteYear.textContent = `${randomWebsite.program}, ${randomWebsite.year}`; 
     websiteImage.src = randomWebsite.image;
-
 
     websiteImage.style.opacity = 0;
     void websiteImage.offsetWidth; 
     websiteImage.style.opacity = 1;
 }
 
-
 displayWebsites();
 updateRandomWebsite();
-
 
 setInterval(() => {
     const randomContainer = document.getElementById('random-container');
@@ -61,7 +55,6 @@ setInterval(() => {
 
     updateRandomWebsite();
 }, 7000);
-
 
 function filterWebsites(query) {
     const websiteItems = document.querySelectorAll('.website-item');
@@ -78,7 +71,6 @@ function filterWebsites(query) {
         }
     });
 }
-
 
 document.getElementById('search-bar').addEventListener('input', (event) => {
     filterWebsites(event.target.value);
