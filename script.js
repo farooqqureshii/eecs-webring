@@ -1,6 +1,5 @@
 const websites = [
     { url: 'https://farooqqureshi.com', year: '2030', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },
-    { url: 'https://example.com', year: '2020', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },
 ];
 
 function displayWebsites() {
