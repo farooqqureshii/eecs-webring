@@ -5,16 +5,18 @@ const websites = [
 
 function displayWebsites() {
     const websiteGrid = document.getElementById('website-grid');
-    websiteGrid.innerHTML = ''; // Clear existing content
+    websiteGrid.innerHTML = ''; 
 
     websites.forEach(website => {
         const websiteItem = document.createElement('div');
         websiteItem.className = 'website-item';
 
         const websiteLink = document.createElement('a');
-        websiteLink.href = website.url;
+  
+        const fullUrl = new URL(website.url, 'https://'); 
+        websiteLink.href = fullUrl.href;
         websiteLink.target = '_blank';
-        websiteLink.textContent = website.url.replace(/^https?:\/\//, '');
+        websiteLink.textContent = fullUrl.hostname; 
 
         const yearText = document.createElement('p');
         yearText.className = 'year';
