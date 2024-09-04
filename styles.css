@@ -1,0 +1,235 @@
+body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    background-image: radial-gradient(#555 5%, transparent 0); 
+    background-size: 40px 40px; 
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#search-bar::placeholder {
+    color: #888;
+}
+
+#search-bar:focus {
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+#website-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 10px; 
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.website-item {
+    text-align: center;
+    padding: 10px; 
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.website-item a {
+    color: #80cbc4;
+    text-decoration: none;
+    font-size: 1em; 
+    display: block;
+}
+
+.website-item p.year {
+    margin-top: 5px;
+    color: #888;
+    font-size: 0.9em; 
+}
+
+.website-item:hover {
+    transform: translateY(-3px); 
+}
+
+.website-item a:hover {
+    color: #4db6ac;
+}
+
+.random-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent; 
+    opacity: 0;
+    animation: fadeInOut 7s infinite;
+}
+
+.website-info {
+    text-align: left;
+    margin-right: 20px;
+    background-color: transparent; 
+}
+
+.site-image {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #4db6ac;
+}
+
+#add-site-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1em; 
+    padding: 5px 10px;
+    animation: glow 2s infinite;
+    cursor: pointer;
+}
+
+@keyframes glow {
+    0% {
+        color: #80cbc4;
+        text-shadow: 0 0 8px #80cbc4;
+    }
+    50% {
+        color: #ff5722;
+        text-shadow: 0 0 25px #ff5722;
+    }
+    100% {
+        color: #80cbc4;
+        text-shadow: 0 0 8px #80cbc4;
+    }
+}
+
+#add-site-link a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+#add-site-link a:hover {
+    color: #4db6ac;
+    text-shadow: 0 0 25px #4db6ac;
+}
+
+.teal-link {
+    color: #80cbc4; 
+    text-decoration: none;
+}
+
+.teal-link:hover {
+    color: #4db6ac;
+    text-shadow: 0 0 10px #4db6ac;
+}
+
+::selection {
+    background-color: #4db6ac;
+    color: #0d0d0d;
+}
+
+#add-site-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1em; 
+    padding: 5px 10px;
+    animation: glow 2s infinite; 
+    cursor: pointer;
+    text-align: center; 
+}
+
+@keyframes glow {
+    0% {
+        color: #80cbc4;
+        text-shadow: 0 0 8px #80cbc4;
+    }
+    50% {
+        color: #ff5722;
+        text-shadow: 0 0 25px #ff5722;
+    }
+    100% {
+        color: #80cbc4;
+        text-shadow: 0 0 8px #80cbc4;
+    }
+}
+
+#add-site-link a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+#add-site-link a:hover {
+    color: #4db6ac;
+    text-shadow: 0 0 25px #4db6ac;
+}
+
+.website-info {
+    text-align: left;
+    margin-right: 20px;
+    background-color: transparent; 
+}
+
+.program {
+    font-weight: bold; 
+    color: #80cbc4; 
+}
