@@ -8,7 +8,7 @@ This project is inspired by the amazinng webrings @ The University of Waterloo (
 - My website is already there!
   '''
   { url: 'farooqqureshi.com', year: '2030', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' }
-  '''
+  ```
 - Please follow the format above, and please also keep the pic.png part as well (this was my fault, working on a fix!)
 - In the comment for your pull request - please include some sort of other link to yourself (LinkedIn is best) just so I can tell it's you!
 - I'll approve the PR and your website will be added ✅
