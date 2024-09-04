@@ -10,7 +10,7 @@ The domain at the momment is attatched to my website (farooqqureshi.com/eecs-web
 - To be part of the webring - you must be a student at the University of Ottawa (or be an alumni), and you must be (or must have been) studying a program under the School of Electrical Engineering and Computer Science (Software Engineeirng, Electrical Engineering, Computer Engineering, Computer Science).
 
 ### 🙂 Joining the webring
-To join the webring - please create a pull request and edit the `addwebsite.md` file located under `templates` - please title the PR "add site for [name]", and follow the instructions. I've done mine below as a demo.
+To join the webring - please create a pull request and include all the information in the `addwebsite.md` file located under `templates` - please title the PR "add site for [name]", and follow the instructions. I've done mine below as a demo.
 ___________________________________________________________
 Name: Farooq Qureshi\
 Year of Grad: 2030\
