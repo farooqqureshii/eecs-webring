@@ -7,7 +7,7 @@ The domain at the momment is attatched to my website (farooqqureshi.com/eecs-web
 
 ### ✅ Some general information
 - Personal websites are great (or portfolios). Social networking pages (eg: LinkedIn, X) are not to be on the webring.
-- To be part of the webring - you must be a student at the University of Ottawa (or bee an alumni), and you must be (or must have been) studying a program under the School of Electrical Engineering and Computer Science (Software Engineeirng, Electrical Engineering, Computer Engineering, Computer Science).
+- To be part of the webring - you must be a student at the University of Ottawa (or be an alumni), and you must be (or must have been) studying a program under the School of Electrical Engineering and Computer Science (Software Engineeirng, Electrical Engineering, Computer Engineering, Computer Science).
 
 ### 🙂 Joining the webring
 To join the webring - please create a pull request and edit the `addwebsite.md` file - please title it "add site for [name]", and follow the instructions. I've done mine below as a demo.
