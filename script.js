@@ -1,5 +1,6 @@
 const websites = [
     { url: 'https://farooqqureshi.com', year: '2030', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },
+    {url: 'https://andrewpham.xyz', year: '2025', image: 'pic.png', program: 'Computer Science'},
 ];
 
 function displayWebsites() {
