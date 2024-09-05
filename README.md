@@ -13,7 +13,7 @@ The domain at the momment is attatched to my website (farooqqureshi.com/eecs-web
 
 ### 🙂 Joining the webring
 To join the webring: 
-1. Please create a pull request and include all the information in the `addwebsite.md` file located under `templates` in your comment. If I were adding my website, the format would be as follows\
+1. Please create a pull request titled `add website [your name]` and include all the information in the `addwebsite.md` file located under `templates` in your comment. If I were adding my website, my comment would be as follows\
 Name: Farooq Qureshi\
 Year of Grad: 2030\
 Program: Electrical Engineering and Computing Technology\
