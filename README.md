@@ -12,16 +12,19 @@ The domain at the momment is attatched to my website (farooqqureshi.com/eecs-web
 - To be part of the webring - you must be a student at the University of Ottawa (or be an alumni), and you must be (or must have been) studying a program under the School of Electrical Engineering and Computer Science (Software Engineering, Electrical Engineering, Computer Engineering, Computer Science).
 
 ### 🙂 Joining the webring
-To join the webring - please create a pull request and include all the information in the `addwebsite.md` file located under `templates` - please title the PR "add site for [name]", and follow the instructions. I've done mine below as a demo.
-___________________________________________________________
+To join the webring: 
+1. Please create a pull request and include all the information in the `addwebsite.md` file located under `templates` in your comment. If I were adding my website, the format would be as follows\
 Name: Farooq Qureshi\
 Year of Grad: 2030\
 Program: Electrical Engineering and Computing Technology\
 URL: https://farooqqureshi.com/ \
 Other link: https://www.linkedin.com/in/farooqq\
 ___________________________________________________________
+2. Please also edit the `script.js` file and add your site into 'websites' array.\
+The format that you should enter your website should just follow the other ones, but here is mine for reference!
+` { url: 'https://farooqqureshi.com', year: '2030', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },`
 
-Once this is done - I'll approve the request and add you to the webring! ~It's highly encouraged that you put a link to the webring somewhere on your website to get the ring more exposure.~ <- Pending until I get a domain :)
+3. Once this is done - I'll approve the request and add you to the webring! ~It's highly encouraged that you put a link to the webring somewhere on your website to get the ring more exposure.~ <- Pending until I get a domain :)
 
 ### TO-DO
 - Make mobile responsive
