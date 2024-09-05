@@ -52,7 +52,7 @@ h1 {
 #website-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
-    gap: 10px; 
+    gap: 30px; 
     padding: 0;
     list-style-type: none;
     margin: 0;
