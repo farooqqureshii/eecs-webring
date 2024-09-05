@@ -19,10 +19,12 @@ Year of Grad: 2030\
 Program: Electrical Engineering and Computing Technology\
 URL: https://farooqqureshi.com/ \
 Other link: https://www.linkedin.com/in/farooqq\
-___________________________________________________________
+
+
 2. Please also edit the `script.js` file and add your site into 'websites' array.\
-The format that you should enter your website should just follow the other ones, but here is mine for reference!
+The format that you should enter your website should just follow the other ones, but here is mine for reference!\
 ` { url: 'https://farooqqureshi.com', year: '2030', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },`
+
 
 3. Once this is done - I'll approve the request and add you to the webring! ~It's highly encouraged that you put a link to the webring somewhere on your website to get the ring more exposure.~ <- Pending until I get a domain :)
 
