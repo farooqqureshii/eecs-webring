@@ -1,6 +1,5 @@
-Name: (your first and last name)\
-Year of Grad: (the year you graduate)\
-Program: (the program you are in)\
-URL: (the complete url of your website)\
-Other link: (another social link showing it's you! (LinkedIn is best))
-
+Name: Saad Mazhar\
+Year of Grad: 2026\
+Program: BSc Honours Computer Science\
+URL: https://saadmazhar.com \
+Other link: https://www.linkedin.com/in/notsaad
