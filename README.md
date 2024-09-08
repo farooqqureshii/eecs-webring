@@ -28,12 +28,12 @@ The format that you should enter your website should just follow the other ones,
 
 3. Once this is done - I'll approve the request and add you to the webring! ~It's highly encouraged that you put a link to the webring somewhere on your website to get the ring more exposure.~ <- Pending until I get a domain :)
 
-### TO-DO
+### ⚙️ TO-DO
 - Make mobile responsive (in progress)
 - Add French translation
 
 _________________________________________________________________________
-### Image Credits
+### 🖼️ Image Credits
 GeeGees Logo: From [Wikipedia](https://en.wikipedia.org/wiki/Ottawa_Gee-Gees#/media/File:Ottawa_Gee-Gees_logo.svg)\
 Favicon: From [FreePik](https://www.freepik.com/icon/globe_16267960#fromView=search&page=1&position=2&uuid=6876f756-2e70-4912-9c27-e976c79b22bf)
   
