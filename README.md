@@ -34,7 +34,7 @@ The format that you should enter your website should just follow the other ones,
 
 _________________________________________________________________________
 ### Image Credits
-GeeGees Logo: From [Wikipedia](https://en.wikipedia.org/wiki/Ottawa_Gee-Gees#/media/File:Ottawa_Gee-Gees_logo.svg)
-FavIcon: From [FreePik](https://www.freepik.com/icon/globe_16267960#fromView=search&page=1&position=2&uuid=6876f756-2e70-4912-9c27-e976c79b22bf)
+GeeGees Logo: From [Wikipedia](https://en.wikipedia.org/wiki/Ottawa_Gee-Gees#/media/File:Ottawa_Gee-Gees_logo.svg)\
+Favicon: From [FreePik](https://www.freepik.com/icon/globe_16267960#fromView=search&page=1&position=2&uuid=6876f756-2e70-4912-9c27-e976c79b22bf)
   
 
