@@ -29,7 +29,7 @@ The format that you should enter your website should just follow the other ones,
 3. Once this is done - I'll approve the request and add you to the webring! ~It's highly encouraged that you put a link to the webring somewhere on your website to get the ring more exposure.~ <- Pending until I get a domain :)
 
 ### TO-DO
-- ~Make mobile responsive~
+- Make mobile responsive (in progress)
 - Add French translation
   
 
