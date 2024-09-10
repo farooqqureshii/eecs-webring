@@ -24,7 +24,8 @@ body {
 
 h1 {
     font-family: 'Lora', serif; 
-    font-size: 2.5em;
+    font-weight: lighter;
+    font-size: 2em;
     letter-spacing: 1.5px;
     color: #ffffff;
     margin-bottom: 20px;
@@ -145,36 +146,44 @@ footer a:hover {
 #add-site-link {
     position: absolute;
     top: 10px;
-    right: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 1em;
     padding: 5px 10px;
-    animation: glow 2s infinite;
     cursor: pointer;
-}
-
-@keyframes glow {
-    0% {
-        color: #80cbc4;
-        text-shadow: 0 0 8px #80cbc4;
-    }
-    50% {
-        color: #ff5722;
-        text-shadow: 0 0 25px #ff5722;
-    }
-    100% {
-        color: #80cbc4;
-        text-shadow: 0 0 8px #80cbc4;
-    }
+    animation: none;
 }
 
 #add-site-link a {
     color: #80cbc4;
     text-decoration: none;
+    border-bottom: 2px solid #4db6ac;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+#add-site-link a::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #4db6ac;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#add-site-link a:hover::after {
+    content: "→";
+    font-size: 0.8em;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    color: #4db6ac;
 }
 
 #add-site-link a:hover {
     color: #4db6ac;
-    text-shadow: 0 0 25px #4db6ac;
 }
 
 .teal-link {
@@ -192,17 +201,9 @@ footer a:hover {
     color: #0d0d0d;
 }
 
-
 @media (max-width: 600px) {
     #website-grid {
         grid-template-columns: 1fr;
-    }
-
-    #add-site-link {
-        top: 10px;
-        right: 0;
-        text-align: center;
-        width: 100%;
     }
 
     #search-bar {
@@ -212,15 +213,19 @@ footer a:hover {
     .website-item {
         font-size: 0.8em;
     }
-}
 
+    #add-site-link {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
 
 #website-grid:hover ~ #add-site-link {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.3s ease;
 }
-
 
 #footer-text {
     display: inline-block;
