@@ -30,7 +30,7 @@ The format that you should enter your website should just follow the other ones,
 
 ### ⚙️ TO-DO
 - Make mobile responsive (in progress)
-- Add French translation
+- Add French translation (if you're interested in helping out with this - please shoot me a messsage on Linkedin!)
 
 _________________________________________________________________________
 ### 🖼️ Image Credits
