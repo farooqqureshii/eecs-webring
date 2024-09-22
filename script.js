@@ -2,6 +2,7 @@ const websites = [
     { url: 'https://farooqqureshi.com', year: '2030', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },
     { url: 'https://andrewpham.xyz', year: '2025', image: 'pic.png', program: 'Computer Science' },
     { url: 'https://saadmazhar.com', year: '2026', image: 'pic.png', program: 'Computer Science' },
+    { url: 'http://reemaalwadi.com/', year: '2027', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },
 ];
 
 let hoverTimeout; 
