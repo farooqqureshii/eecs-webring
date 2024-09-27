@@ -8,7 +8,7 @@
 The domain at the momment is attatched to my website (farooqqureshi.com/eecs-webring). I don't plan to keep it like this, and intend to get a nice domain once enough users add themselves in. 
 
 ### ✅ Some general information
-- Personal websites are great (or portfolios). Social networking pages (eg: LinkedIn, X) are not suitable for teh webring.
+- Personal websites are great (or portfolios). Social networking pages (eg: LinkedIn, X) are not suitable for the webring.
 - To be part of the webring - you must be a student at the University of Ottawa (or be an alumni), and you must be (or must have been) studying a program under the School of Electrical Engineering and Computer Science (Software Engineering, Electrical Engineering, Computer Engineering, Computer Science).
 
 ### 🙂 Joining the webring
