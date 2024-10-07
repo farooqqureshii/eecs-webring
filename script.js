@@ -3,8 +3,8 @@ const websites = [
     { url: 'https://andrewpham.xyz', year: '2025', image: 'pic.png', program: 'Computer Science' },
     { url: 'https://saadmazhar.com', year: '2026', image: 'pic.png', program: 'Computer Science' },
     { url: 'http://reemaalwadi.com/', year: '2027', image: 'pic.png', program: 'Electrical Engineering & Computing Technology' },
-    { url: 'https://www.artak.dev/', year: '2022', image: 'pic.png', program: 'Computer Science' }
-    
+    { url: 'https://www.artak.dev/', year: '2022', image: 'pic.png', program: 'Computer Science' }, 
+    { url: 'https://cglab.ca/~vida/', year: 'Professor', image: 'pic.png', program: 'School of Elecrical Engineering and Computer Science' }, 
 ];
 
 let hoverTimeout; 
